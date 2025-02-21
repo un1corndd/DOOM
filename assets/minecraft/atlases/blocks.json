@@ -1,0 +1,30 @@
+{
+    "sources": [
+        {
+            "source": "entity",
+            "prefix": "entity/",
+            "type": "directory"
+        },
+        {
+            "pattern": {
+                "namespace": "minecraft",
+                "path": "entity/fishing_hook"
+            },
+            "type": "filter"
+        },
+        {
+            "type": "directory",
+            "source": "custom",
+            "prefix": "custom/"
+        },
+        {
+            "type": "single",
+            "resource": "entity/trident"
+        },
+        {
+            "type": "directory",
+            "source": "vegastables",
+            "prefix": "vegastables/"
+        }
+    ]
+}

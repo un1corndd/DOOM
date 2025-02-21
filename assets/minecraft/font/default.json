@@ -1,0 +1,40 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "gui/fullscreen.png",
+            "ascent": 1028,
+            "height": 2048,
+            "chars": [
+                "\uE000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "gui/doom.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\uE001"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "gui/doom_options.png",
+            "ascent": 14,
+            "height": 256,
+            "chars": [
+                "\uE002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "gui/you_died.png",
+            "ascent": 18,
+            "height": 18,
+            "chars": [
+                "\uE003"
+            ]
+        }
+    ]
+}

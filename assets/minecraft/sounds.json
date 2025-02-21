@@ -1,0 +1,7 @@
+{
+    "item_pickup":{
+        "sounds": [
+           "item_pickup"
+        ]
+    }
+}

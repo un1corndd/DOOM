@@ -1,0 +1,19 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+    "layer0": "minecraft:item/clay_ball"
+    },
+    
+    "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "custom/items/empty"},
+    {"predicate": {"custom_model_data":2}, "model": "custom/items/filler"},
+    {"predicate": {"custom_model_data":3}, "model": "custom/items/arrow_left"},
+    {"predicate": {"custom_model_data":4}, "model": "custom/items/save_icon"},
+    {"predicate": {"custom_model_data":5}, "model": "custom/items/accept"},
+    {"predicate": {"custom_model_data":6}, "model": "custom/items/deny"},
+    {"predicate": {"custom_model_data":7}, "model": "custom/items/lock"},
+    {"predicate": {"custom_model_data":8}, "model": "custom/items/on_switch"},
+    {"predicate": {"custom_model_data":9}, "model": "custom/items/off_switch"},
+    {"predicate": {"custom_model_data":10}, "model": "custom/items/info"}
+    ]
+}
